@@ -1,0 +1,56 @@
+VAR_GLOBAL {
+    FLOAT F1, F2;
+    INTEGER I1, I2, I3, Z,Zi;
+    INTEGER Sum, A, B;
+    INTEGER I; 
+    CHAR C1, C2;
+    %% Test comment at the global level
+    INTEGER Arr[5];
+}
+
+DECLARATION {
+    INTEGER J, K;
+    CONST INTEGER MAX_SIZE = 100;
+    CONST FLOAT PI = 3.1415;
+    CONST CHAR INITCHAR = "X";
+}
+
+INSTRUCTION {
+
+    %% Initialization
+    F1 = 0.0;
+    F2 = 10.5;
+    I1 = 15;
+    I2 = 10;
+    C1 = "B";
+    C2 = INITCHAR;
+    Z = I1 + I2;
+    Sum = 0;
+
+    A = 4;
+    B = 3;  
+    Zi =0;
+
+    FOR (I = 0 : 1 : A){
+        Sum = Sum + I;
+    }
+
+    FOR (I = 0 : 1 : A) {
+        FOR (J = 0 : 1 : B){
+            Zi = J + I;
+        }
+    }
+
+    %% Conditions
+    IF(I2 < I1) {
+        I2 = 5;
+    } 
+    ELSE {
+        I2 = 0;
+    }
+
+
+    %% Read/Write Test
+    WRITE("Final values of I2:");
+    READ(I3);
+}
