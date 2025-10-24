@@ -1,4 +1,4 @@
-## Mini Compiler – MinING Language
+# Mini Compiler – MinING Language
 
 This project implements a mini-compiler for a custom language called MinING.
  The compiler goes through the **main phases of compilation**, from **lexical analysis** to **intermediate code generation**, including:
