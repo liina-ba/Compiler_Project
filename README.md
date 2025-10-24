@@ -1,7 +1,7 @@
 ## Mini Compiler – MinING Language
 
 This project implements a mini-compiler for a custom language called MinING.
-The compiler goes through the **main phases of compilation**, from **lexical analysis** to **intermediate code generation**, including:
+ The compiler goes through the **main phases of compilation**, from **lexical analysis** to **intermediate code generation**, including:
 
 - **Lexical analysis**
 - **Syntax and semantic analysis**
@@ -12,6 +12,6 @@ The compiler goes through the **main phases of compilation**, from **lexical ana
 
 - **Language:** C  
 - **Tools:** Flex, Bison (for lexical & syntax analysis)  
-- **IDE:** Code::Blocks / Visual Studio Code  
+- **IDE:**  Visual Studio Code  
 - **Output:** Intermediate quadruple code
 
