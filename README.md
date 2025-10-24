@@ -8,7 +8,7 @@ This project implements a mini-compiler for a custom language called MinING.
 - **Symbol table management**
 - **Intermediate code generation (quadruplets)**
 
-- # Technologies & Tools
+- ## Technologies & Tools
 
 - **Language:** C  
 - **Tools:** Flex, Bison (for lexical & syntax analysis)  
